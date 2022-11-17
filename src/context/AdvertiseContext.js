@@ -73,7 +73,6 @@ export function AdvertiseContextProvider({children}){
 
     if(id){
       api.put(`editCampaign/${id}`, campaign);
-      console.log(id)
     }else{
       api.post("registerCampaign", campaign);
     }

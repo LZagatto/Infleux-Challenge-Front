@@ -33,7 +33,6 @@ export default function FormModal() {
       <Container>
         <Header>
           <strong>{verify ? 'Editar Campanha' : 'Cadastrar Campanha'}</strong>
-          {console.log(verify)}
           <button type="button" onClick={handleClose}>
             <CloseIcon />
           </button>

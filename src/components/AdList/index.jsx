@@ -7,7 +7,6 @@ import AdvertiseHeader from '../AdvertiseHeader';
 import api from '../../services/api';
 
 export default function AdList() {
-  const [allCampaigns, setAllCampaign] = useState([]);
   const [filtered, setFiltered] = useState([]);
   const [filteredList, setFilteredList] = new useState('');
 
@@ -21,7 +20,6 @@ export default function AdList() {
     }
     api.get(`campaignCountry/${filterCountry}`).then(({ data }) => {
       setFiltered(data.campaign);
-      console.log(data);
     });
   }, [filteredList]);
 
