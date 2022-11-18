@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Infleux Interview Process – 2022 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Tech & Product Team
 
-## Available Scripts
+<img src="readme.png" alt="Infleux Interview Process">
 
-In the project directory, you can run:
+> The objective of this challenge is to model and implement a simple Ad Network, using ReactJs, Node.Js and MongoDB.
 
-### `npm start`
+### Settings and improvements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The project is still in development and the next updates will be handled in the next tasks:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [ ] Tarefa 1 - Create unit tests;
+- [ ] Tarefa 2 - Apply Mask to inputs;
+- [ ] Tarefa 3 - Finalize responsiveness;
+- [ ] Tarefa 4 - Create new filters to search for campaigns;
+- [ ] Tarefa 5 - Render the error messages coming from the database;
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💻 Pre-requisites
 
-### `npm run build`
+Before you begin, make sure you have met the following requirements:
+* You have installed the latest version of the browser you use.
+* You've got a machine `<Windows / Linux / Mac>`.
+* You have install `<VSCode>`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Site
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you want to see the site model in action <a  href="https://infleux-challenge-front.vercel.app/" target="_blank">Click Here </a>!
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🤝 Colaborators
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+People who have contributed to this project:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/LZagatto" target="_blank">
+        <img src="https://github.com/LZagatto.png" width="100px;" alt="Foto do Leonardo Zagatto no GitHub"/><br>
+        <sub>
+          <b>Leonardo Zagatto</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 😄 Seja um dos contribuidores
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Quer fazer parte desse projeto? Clique [AQUI](mailto:leozagatto1@gmail.com) e me envie um email.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[⬆ Voltar ao topo](#Finder-React)<br>

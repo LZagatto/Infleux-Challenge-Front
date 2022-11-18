@@ -17,10 +17,11 @@ export default function AdList() {
       api.get('allCampaigns').then(({ data }) => {
         setFiltered(data.campaigns);
       });
+    } else {
+      api.get(`campaignCountry/${filterCountry}`).then(({ data }) => {
+        setFiltered(data.campaign);
+      });
     }
-    api.get(`campaignCountry/${filterCountry}`).then(({ data }) => {
-      setFiltered(data.campaign);
-    });
   }, [filteredList]);
 
   return (
