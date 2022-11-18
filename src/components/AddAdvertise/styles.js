@@ -3,8 +3,8 @@ import styled from "styled-components";
 import { IoAdd } from "react-icons/io5";
 
 export const AddAdvertiseButton = styled.button`
-  border: 5px outset #FFFFFF;
-  background-color: rgba(0, 0, 0, 0.04);
+  border: 5px outset rgb(51,17,130);
+  background-color: rgba(51,17,130, 0.04);
   margin: 10px;
   padding: 10px;
   height: 50px;
@@ -12,7 +12,7 @@ export const AddAdvertiseButton = styled.button`
   cursor: pointer;
 
   border-radius: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 10px rgba(51,17,130, 0.08);
 
   display: flex;
   flex-direction: column;
@@ -22,7 +22,7 @@ export const AddAdvertiseButton = styled.button`
 `;
 
 export const AddIcon = styled(IoAdd)`
-  stroke: #ffffff;
+  stroke: rgb(51,17,130);
   width: 64px;
   height: 64px;
 `;

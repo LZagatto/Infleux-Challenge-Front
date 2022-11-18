@@ -7,6 +7,7 @@ export const Container = styled.header`
   background-color: white;
   display: flex;
   align-items: center;
+  border-bottom: rgb(51,17,130) 5px solid;
 
   & h3{
     color: #1e1e1e;

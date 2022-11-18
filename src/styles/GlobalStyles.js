@@ -22,5 +22,5 @@ export default createGlobalStyle`
 
   body {
     background: rgb(51,17,130);
-    background: linear-gradient(180deg, rgba(51,17,130,1) 0%, rgba(81,26,200,1) 85%, rgba(107,54,232,1) 100%);  }
+    background: linear-gradient(180deg, rgba(224,219,235,1) 0%, rgba(224,219,235,1) 85%, rgba(201,191,225,1) 100%);  }
 `;
