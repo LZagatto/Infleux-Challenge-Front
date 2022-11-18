@@ -19,7 +19,7 @@ export const Row = styled.div`
 
   label {
     font-size: 15px;
-    color: white;
+    color: rgba(81,26,200,1);
   }
 
   select {
