@@ -76,17 +76,14 @@ export function AdvertiseContextProvider({children}){
     }else{
       api.post("registerCampaign", campaign);
     }
-    setOpenFormModal(false);   
+    setOpenFormModal(false);
     setVerify(false);
-
     window.location.reload(false);
-
   }
   
   function handleDelete(id) {
     api.delete(`deleteCampaign/${id}`);
     window.location.reload(false);
-
   }
 
   return(
